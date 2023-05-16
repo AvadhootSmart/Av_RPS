@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>ROCK PAPER SCISSORS GAME</h1>
+        <button id="reset-btn" onclick=Reset()>Reset</button>
+        <button id="next-btn" onclick=Next()>Next Round</button>
+        <button class="open-btn">Rules</button>
+    </div>
+    <h2 id="W">Win:</h2>
+    <h2 id="L">Losses:</h2>
+    <h2 id="D">Draws:</h2>
+
+    <div class="popup">
+        <div class="popup-content">
+            <h2>Rules[How to play the game]</h2>
+            <h3>Welcome to the Rock Paper Scissors arena</h3>
+            <p>
+                Here you battle the computer/AI in a fierce battle of
+                stone paper and scissors.
+            </p>
+            <li>
+                All you have to do to play the game is:
+            </li>
+            <li>
+                Step 1:Double-Click on your choice of icon of Rock, Paper or Scissors
+
+            </li>
+            <li>
+                Step 2:After you play the move,Click on the Next Round button which will proceed you to another round
+
+            </li>
+            <li>
+                Step 3:After you are done getting destroyed by the AI,You can use the Reset button to reset the scores
+                
+
+            </li>
+
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- <button id="start-btn">START GAME</button> -->
+    <div class="score-btn">
+        <div class="pl">
+            <p id="scpl-1"></p>
+
+        </div>
+        <p id="pl-m">Player:</p>
+        <p id="vs">VS</p>
+        <p id="ai-m">AI:</p>
+
+
+
+        <div class="ai">
+            <p id="scai-1"></p>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+    <div class="container">
+        <div class="imgs">
+            <img src="/imgs/philosophers+potter+rock+solid+stone+icon-1320183613026815451.png" id="rock-img">
+            <img src="/imgs/Paper-icon.png"="" id="paper-img">
+            <img src="/imgs/scissors-3431572-2862534.png" id="scissors-img">
+        </div>
+        <div class="next">
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/Ai.js"></script>
+</body>
+
+</html>
